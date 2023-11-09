@@ -8,9 +8,6 @@ header {
     align-items: center;
 }
 
-h1 {
-    
-}
 
 nav {
     display: flex;
@@ -18,7 +15,57 @@ nav {
     justify-content: space-around;
 }
 
-main {
-    width: 40rem;
-    ;
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+   max-width: 100% ;
+   height: auto;
+}
+
+.text {
+    width: 55%;
+    font-size: 1.2rem;
+}
+
+#portrait {
+    width: 30%;
+}
+
+#skills img{
+    max-width: 10%;
+    height: auto;
+}
+
+#skills div {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#project_holder {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project {
+    width: 25%
+}
+
+#contact {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+#contact img {
+    max-width: 2rem;
+    height: auto;
+}
+
+.contact_container {
+    display: flex;
+    align-items: center;
 }
